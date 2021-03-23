@@ -1,0 +1,178 @@
+:root {
+    --dark-color: #2F3242;
+    --light-color:  #4a4d64;
+    --theme-color: orange;
+  }
+  
+  html {
+      background-repeat: no-repeat;
+      min-height: 1000px;
+      font-family: 'helvetica neue';
+    }
+    
+    h1 {
+      color: #fff;
+      padding: 10px;
+    }
+    
+    .container {
+      height: 100vh;
+    }
+
+    .box {
+      max-width: 1500px;
+      margin: 0px auto;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    }
+
+    .mainView {
+      margin: auto;
+    }
+    
+    #heading {
+      background-color: var(--theme-color);
+      text-align: center;
+    }
+
+    #heading h1 {
+      font-size: 3.5rem;
+    }
+    
+    .item {
+      /* min-height: 70px; */
+      display: flex;
+      align-items: center;
+    }
+    
+    .item:last-child {
+      border-bottom: 0;
+    }
+    
+    input:checked+p {
+      text-decoration: line-through;
+      text-decoration-color: var(--dark-color);
+    }
+    
+    input[type="checkbox"] {
+      margin: 20px;
+    }
+    
+    p {
+      margin: 0;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 200;
+      color: #00204a;
+    }
+
+    table {
+      /* border-collapse: ; */
+      
+    }
+
+    .table {
+      text-align: center;
+      margin: auto;
+      padding-bottom: 0rem;
+    }
+
+    th {
+      /* padding-left: 2rem;
+      padding-right: 2rem; */
+      border-bottom: 1px solid #F1F1F1;
+      font-weight: 400;
+    }
+
+    .row-id {
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    td {
+      text-align: center;
+      margin: 0;
+      /* padding-top: 10px;
+      padding-bottom: 10px; */
+      font-size: 20px;
+      font-weight: 200;
+      border-bottom: 1px solid #F1F1F1;
+    }
+
+    #first_name_field, #last_name_field, #phone_number_field {
+      text-align: left;
+      margin-left: 20px;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: 200;
+    }
+
+    a, button, button:active {
+      text-decoration: none;
+      background: transparent;
+      border: none;
+    }
+
+    .fa-trash-alt {
+      text-decoration: none;
+      color: var(--theme-color);
+      font-size: 2rem;
+    }
+
+    .submit-button {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      background: var(--theme-color)!important;
+      border: none;
+    }
+    
+    input {
+      margin: 0.5rem;
+    }
+
+    input[type="text"] {
+      text-align: center;
+      height: 40px;
+      top: 10px;
+      border-radius: 5px;
+      border: 1px solid #F1F1F1;
+      background: transparent;
+      font-size: 20px;
+      font-weight: 200;
+      width: 313px;
+    }
+
+    input[type="number"] {
+      text-align: center;
+      height: 20px;
+      top: 10px;
+      border-radius: 5px;
+      border: 1px solid #F1F1F1;
+      background: transparent;
+      font-size: 20px;
+      font-weight: 200;
+    }
+    
+    input[type="text"]:focus, input[type="number"]:focus {
+      outline: none;
+      box-shadow: inset 0 -3px 0 0 var(--theme-color);
+    }
+    
+    ::placeholder {
+      color: grey;
+      opacity: 1;
+    }
+    
+    footer {
+      color: white;
+      color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .footer {
+      display: inline-block;
+      color: black;
+      font-size: 1.4rem;
+      margin: 1rem;
+    }
